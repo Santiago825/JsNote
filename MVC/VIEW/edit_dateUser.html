@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/edit_user.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="nav-bar" id="nav">
+      <div class="logo_header">
+        <span class="logo" alt="">J<span>S</span></span>
+      </div>
+      <h1 class="header_title">Config User</h1>
+      <div class="nav_rigth">
+        <div class="nav_rigth_icons">
+          <a href=""><i class="fa-solid fa-arrow-rotate-right"></i></a>
+          <a href=""><i class="fa-solid fa-brush"></i></a>
+          <a href=""><i class="fa-solid fa-list"></i></a>
+          <a id="btn_user"><i class="fa-solid fa-user"></i></a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container_main">
+        <div class="photo_config">
+          <img src="/MVC/VIEW/img/icon_picture_photo.png" alt="" />
+          <div class="buttons_pictures">
+            <button>View Porfile picture</button>
+            <button>Update Porfile picture</button>
+          </div>
+        </div>
+        <div class="container_config">
+          <div class="option_menu">
+            <label for="">Name:</label>
+            <input type="text" />
+          </div>
+          <div class="option_menu">
+            <label for="">Last Name:</label>
+            <input type="text" />
+          </div>
+          <div class="option_menu">
+            <label for="">Name user:</label>
+            <input type="text" />
+          </div>
+          <div class="option_menu">
+            <label for="">Email:</label>
+            <input type="text" />
+          </div>
+          <div class="option_menu">
+            <label for="">Password:</label>
+            <input type="text" />
+          </div>
+          <div class="option_menu option_password">
+            <label for="">Nuevo Password:</label>
+            <input type="text" />
+            <input type="text" />
+          </div>
+          <div class="option_menu">
+            <label for="">Number Phone:</label>
+            <input type="text" />
+          </div>
+        </div>
+        <div class="accion_button_config">
+          <button onclick="location.href='./edit_dateUser.html'">
+            Cancelar
+          </button>
+          <button>Actualizar informacion</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

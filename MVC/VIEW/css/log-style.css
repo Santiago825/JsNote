@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "lobster";
+    src: url("../fonts/Lobster-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: 'ArchivoNarrow';
+    src: url("../fonts/ArchivoNarrow-Italic-VariableFont_wght.ttf");
+  }
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+  text-align: center;
+  color: #78a75e;
+  font-family: "lobster";
+  width: 100%;
+  font-size: 35px;
+  margin: 0px;
+  
+}
+h2{
+    text-align: center;
+    margin-top: 25px 0px;
+    width: 100%;
+    font-size:25 ;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.form-login{
+    position: absolute;
+    background: #9de47763;
+    /* verticalmete (50%)-(height%/2) */
+    
+    /* horizontalmete (50%)-(width%/2) */
+    left: 50%;
+    top: 10%;
+    width: 88%;
+    height: 80%;
+    background: rgb(255, 255, 255);
+    transform: translateX(-50%);
+
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+.form-label{
+    margin-bottom: 10px;
+    font-family: "ArchivoNarrow";
+}
+.container-inputs{
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.input-100{
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 0.5px solid #78a75e; 
+    padding: 15px 0;
+}
+.restore-pass{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    margin-bottom: 25px;
+
+    color: darkgray;
+}
+.btn-start{
+    background: darkgrey;
+    color: white;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.btn-start:hover{
+    background: #78a75e;
+    transition: all 0.35s;
+}
+.form__link{
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    margin: 20px;
+    color: darkgray;
+}
+.form__link a{
+    color: black;
+}
+
+

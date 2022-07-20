@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    transition: all ease-in-out 0.5s;
+    background: white;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    height: 65px;
+    padding: 10px 0;
+   
+    grid-template-columns: 25% 50% 25%;
+
+    box-shadow: 0px 1px 2px 0px rgb(60 64 67 / 30%), 0px 2px 6px 2px rgb(60 64 67 / 15%);
+
+}
+.logo_header{
+    color: #ffc000;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+.logo_header span span{
+    color: black;
+}
+
+
+.nav_rigth_icons{
+
+
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.nav_rigth_icons a{
+    padding: 0 20px;
+
+    font-size: 22px;
+    color: black;
+
+}
+.nav_rigth_icons a:last-child{
+    padding-left:55px;
+    padding-right: 35px;
+}
+
+/* main  + + +  */
+
+.container_main{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    gap: 10px;
+}
+
+/* Menu izquierdo */
+.container_menu{
+
+    display: block;
+    margin-top: 10px;
+
+    list-style: none;
+
+}
+.container_menu li{
+    padding: 20px 10px;
+    padding-left: 30px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.container_menu li:hover{
+    background: whitesmoke;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    
+}
+.container_menu a{
+ 
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+
+    color: black;
+}
+.container_menu a i{
+    
+    font-size: 20px;
+    margin-right: 30px;
+    
+}
+
+/* Menus invisibles */
+.options_user{
+    transition: all ease-in-out 0.5s;
+    display: none;
+
+    justify-content: center;
+    background: white;
+    transition: all 0.9s;
+    margin-top: 10px;
+    
+    z-index: 9999;
+    border: 1px solid gray;
+    width: 304px;
+    padding: 40px 0;
+    position: absolute;
+    right:10px;
+    border-radius: 10px;
+
+    box-shadow: 0px 1px 2px 0px rgb(60 64 67 / 30%), 0px 2px 6px 2px rgb(60 64 67 / 15%);
+
+}
+.conatiner_icon_user{
+    display: flex;
+    justify-content: center;
+}
+.icon_user{
+    background: rgb(121, 121, 172);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.options_user span{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.options_user button,.options_user a{
+    display: flex;
+    width: 80%;
+    margin: 15px auto;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    
+ 
+
+}
+.btn_config:hover{
+    background: #ffc000;
+    transition: 0.5s;
+
+
+}
+.btn_closeSession:hover{
+    background: #f16656e2;
+    transition: 0.5s;
+
+}
+.mostrar_config{
+    display: block;
+    transition: all ease-in-out 0.5s;
+    
+}
+
+/*  Notas contenedor  */
+.container_cards_fijadas{
+    padding: 30px;
+}
+.title_container_cards{
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+
+}
+.container_note{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap: 15px;
+    
+}
+
+.card{
+    border: 1px solid rgb(75, 64, 64);
+    padding: 18px;
+    padding-bottom: 0;
+    border-radius: 5px;
+
+}
+.header_card{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+}
+.title_card{
+  
+    margin-right: 20px;
+    font-size: 20px;
+}
+.date_card{
+    font-size: 15px ;
+}
+.content_note{
+    height: 125px;
+   
+    overflow: hidden;
+}
+
+.edit_icons{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.edit_icons a{
+    padding: 10px;
+    margin-top: 15px;
+    color: black;
+
+
+}

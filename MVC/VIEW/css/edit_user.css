@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar{
+    transition: all ease-in-out 0.5s;
+    background: white;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    height: 65px;
+    padding: 10px 0;
+   
+    grid-template-columns: 5% 70% 25%;
+
+    box-shadow: 0px 1px 2px 0px rgb(60 64 67 / 30%), 0px 2px 6px 2px rgb(60 64 67 / 15%);
+
+}
+.logo_header{
+    
+    color: #ffc000;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.header_title{
+ 
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.logo_header span span{
+    color: black;
+}
+
+
+.nav_rigth_icons{
+
+
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.nav_rigth_icons a{
+    padding: 0 20px;
+
+    font-size: 22px;
+    color: black;
+
+}
+.nav_rigth_icons a:last-child{
+    padding-left:55px;
+    padding-right: 35px;
+}
+/* panel principal */
+
+.menu_config span{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    background: red;
+    margin: 30px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container_main{
+    display: grid;
+    grid-template-columns: 35% 65%
+}
+.container_config{
+    padding: 40px;
+    /* background: #ffc000; */
+    box-shadow: 0px 1px 2px 0px rgba(31, 111, 172, 0.3), 0px 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+
+.option_menu{
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.option_menu label{
+    /* background: turquoise; */
+    width: 30%;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 10px 30px;
+    
+}
+.option_menu input{
+    border-radius: 10px;
+    width: 60%;
+    margin: 10px 0;
+    padding: 5px;
+}
+.option_password input{
+    width: 28.5%;
+
+    
+    
+}
+/* parete deerecha */
+.photo_config{
+
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 2px 0px rgba(31, 111, 172, 0.3), 0px 2px 6px 2px rgb(60 64 67 / 15%);
+
+
+    
+}
+.photo_config img{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    
+}
+.buttons_pictures{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.buttons_pictures a{
+    padding: 10px 15px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background: white;
+    border: 2px solid #ffc000;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons_pictures a:hover{
+    background: #e3dcc5;
+}
+
+.accion_button_config
+{
+    grid-column: 1/3;
+    grid-template-columns: 1fr;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    
+
+}
+.accion_button_config a,.accion_button_config button{
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 1px solid #bea0a0;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+.accion_button_config a:nth-child(1){
+    border: 1px solid rgb(203, 103, 103);
+}
+.accion_button_config button:nth-child(2){
+    border: 1px solid greenyellow;
+}
+.accion_button_config a:hover:nth-child(1){
+    background:rgb(203, 103, 103);
+}
+.accion_button_config button:hover:nth-child(2){
+    background:  greenyellow;
+}
+
+
+
